@@ -3,10 +3,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/profile.webp";
-import Image from "react-bootstrap/Image";
+// import Profile from "../../assets/img/profile/profile.webp";
+// import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-import Tilt from "react-tilt";
+// import Tilt from "react-tilt";
 
 const About = () => {
   return (

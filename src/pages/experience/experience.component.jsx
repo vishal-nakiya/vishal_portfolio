@@ -1,7 +1,7 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import L_ACCENTURE from "../../assets/img/experience/accenture-3.svg";
+// import L_ACCENTURE from "../../assets/img/experience/accenture-3.svg";
 import L_Tuvoc from "../../assets/img/experience/Tuvoc-1.svg";
 import Tilt from "react-tilt";
 import "./experience.styles.css";

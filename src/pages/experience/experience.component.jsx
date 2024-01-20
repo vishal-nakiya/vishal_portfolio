@@ -40,24 +40,30 @@ const Experience = () => {
                   <strong> Description </strong>
                   <ul className="text-left">
                     <li>
-                      <strong>Quick transition</strong> to{" "}
-                      <strong>Backend</strong> and{" "}
-                      <strong>Lead Support Developer</strong> resulting in{" "}
-                      <strong>reducing</strong> Service Now tickets from{" "}
-                      <strong>500+ to 0</strong>.
+                      <strong>
+                      Developed & enhanced features
+                      </strong> to implement the new changes made in a
+                      Jewellery ERP system-based project. Additionally, I built client-requested
+                      features to further improve the functionality in the system.
                     </li>
+                    <br />
                     <li>
-                      <strong>Developed & Enhanced features</strong> to
-                      implement new changes done in Jewellery ERP system Based project API & build
-                      client-requested features.
+                      <strong>Comprehensive ERP Development:</strong> Led the development of an
+                      extensive ERP system encompassing process planning,
+                      manufacturing, inventory, sales, and mobile application
+                      administration, integrating features like barcode scanning and
+                      multi-location support.
                     </li>
+                    <br />
                     <li>
                       <strong>Worked on</strong> JIRA stories to develop a new
                       API to support client-requested features.
                     </li>
+                    <br />
                     <li>
                       <strong>Created</strong> Proficient in building robust web applications with Node.js as the Skilled
                     </li>
+                    <br />
                     <li>
                       <strong>Implemented multi-lingual functionality</strong>{" "}
                       to the project's <strong>web application</strong> enabling
@@ -65,11 +71,38 @@ const Experience = () => {
                       <strong> across different countries</strong> by the
                       customers.
                     </li>
+                    <br />
                     <li>
-                      <strong>Worked</strong> on{" "}
-                      <strong>building Hybrid Mobile App</strong> for{" "}
-                      <strong>Health Industry</strong> using Flutter & Dart in
-                      Firm Initiative.
+                      <strong>Inventory and Order Management Expertise:</strong> Implemented real-
+                      time inventory tracking for optimized stock management, efficient
+                      generation of purchase orders, and transparent sales order
+                      management, ensuring seamless operations.
+                    </li>
+                    <br />
+                    <li>
+                      <strong>Technological Proficiency:</strong> Demonstrated proficiency in a range of
+                      technologies including <strong> HTML, CSS, JavaScript, Node.js, Sequelize,
+                        Express.js, React, Laravel, and MySQL, </strong>showcasing a versatile skill
+                      set.
+                    </li>
+                    <br />
+                    <li>
+                      <strong>Device Compatibility:</strong> Integrated printer support for streamlined
+                      product tagging within the ERP system, optimizing inventory
+                      management.
+                    </li>
+                    <br />
+                    <li>
+                      <strong>EMI System Integration:</strong> Seamlessly integrated with physical
+                      devices for <strong> EMI scheme management, simplifying installment-
+                        based payments </strong>within the ERP system.
+                    </li>
+                    <br />
+                    <li>
+                      <strong>Tally Software Integration:</strong> Integrated Tally-like accounting
+                      features into the ERP system, encompassing voucher creation,
+                      ledger mapping, entry, and reporting for precise and efficient
+                      financial management.
                     </li>
                   </ul>
                 </div>

@@ -11,6 +11,7 @@ import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.web
 import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
+import Carousel from "react-bootstrap/Carousel";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -28,125 +29,25 @@ import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_Nodejs from "../../assets/img/skills/nodejs.svg";
-
+import LoginJM2 from "../../assets/img/projects/JEWEL_MAKER.png";
+import LoginJM from "../../assets/img/projects/JEWEL_MAKERLogin.png";
+import Jugaadu1 from "../../assets/img/projects/Dashboard (1).png";
+import Jugaadu2 from "../../assets/img/projects/Admin - Manage Users.png";
+import Jugaadu3 from "../../assets/img/projects/Admin - Manage Withdraw Requests.png";
+import Jugaadu4 from "../../assets/img/projects/Admin - Dashboard.png";
 import "./projects-timeline.styles.css";
 
 const TimeLine = () => {
   return (
     <div>
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
-      <Timeline>
+      <Timeline> 
         <Events>
-          {/* Project: Todo List With MUI */}
-          <ImageEvent
-            date="01/10/2020"
-            className="text-center"
-            text="Jugaadu Game"
-            src={L_ReactToDoList}
-            alt="Jugaadu Game"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
 
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is a Jugaadu Game App created
-                        with React and Nodejs.For real time bidding add app.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Its game like Rashi FAL Guessing game</li>
-                          <li>Powered by React and NodeJs</li>
-                          <li>Respoisive Design</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_Nodejs}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              NodeJs
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://jugadu.cloud/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/vishal-nakiya/node-jugaadu"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                {/* <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton> */}
-              </div>
-            </div>
-          </ImageEvent>
+          {/* Mern tip calculator*/}
 
-          {/* Project: MERN Tip Calculator */}
           <ImageEvent
-            date="16/09/2020"
+            date="16/05/2023"
             className="text-center"
             text="MERN Tip Calculator"
             src={L_MernTipCalc}
@@ -240,36 +141,31 @@ const TimeLine = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/akjha96/MernTipCaculator-FrontEnd"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-nodejs-expressjs-activity-6712281977107603456-oH6t"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
             </div>
           </ImageEvent>
-
-          {/* Project: RoboFriends */}
-
-       
-          {/* Project: Product_Hunt_Clone */}
-
-          {/* Project: Portfolio using Django */}
-          {/* <ImageEvent
-            date="07/12/2019"
+          {/* JewelMaker*/}
+          <ImageEvent
+            date="01/10/2023"
             className="text-center"
-            text="Portfolio using Django"
-            src={L_PortfolioUsingDjango}
-            alt="Portfolio using Django"
           >
+            <span style={{ fontWeight: 'bold' }}>JEWELMAKER</span>
+            <Carousel interval={5000} nextIcon={<span>Next</span>} prevIcon={<span>Prev</span>}>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={LoginJM}
+                  alt="Jugaadu Game Slide 1"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={LoginJM2}
+                  alt="Jugaadu Game Slide 2"
+                />
+              </Carousel.Item>
+              {/* Add more Carousel.Item components if you have additional slides */}
+            </Carousel>
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -284,18 +180,15 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio
-                        website built using Django.
+                        <strong>Description:</strong> This is a Mortgage calculator and tracking emi ERP system software created
+                        with React and Nodejs.For real time Calculate EMI and loan amount add app.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Write a blog</li>
-                          <li>
-                            Hosted using Digital ocean under www.akjfun.com
-                          </li>
-                          <li>Fully funtional Administration panel</li>
+                          <li>Real time EMI amount calculation with partial payment details</li>
+                          <li>Mortage and loan report user wise </li>
+                          <li>Respoisive Design</li>
+                          <li>Easy for jewellery based Salesman and Retailor for Mortage tracking</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -325,66 +218,159 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DJANGO}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
+                                src={L_REACT}
+                                alt="React"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PostgreSQL
+                              React
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_DIGITAL_OCEAN}
-                                alt="Digital Ocean"
+                                src={L_Nodejs}
+                                alt="Material-UI"
                                 rounded
-                                className="image-style m-1"
+                                className="image-style1 m-1"
                               ></Image>{" "}
-                              Digital-Ocean
+                              NodeJs
                             </span>
                           </li>
                         </ul>
-                        <hr />
-                        <em>
-                          <strong>View web site:</strong>
-                          <br />
-                          <br />
-                          If you are reading this, that means I have updated my
-                          Portfolio website to recent one.
-                          <br />
-                          <br />
-                        </em>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center"></div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://uat.erp.jewelmaker.it"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                {/* <UrlButton
+                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
+                  target="_blank"
+                >
+                  WATCH VIDEO
+                </UrlButton> */}
+              </div>
             </div>
-          </ImageEvent> */}
+          </ImageEvent>
+          {/* Jugaadu Game */}
+          <ImageEvent
+            date="01/10/2023"
+            className="text-center"
+          >
+            <span style={{ fontWeight: 'bold' }}>Jugaadu Game</span>
+            <Carousel interval={5000} nextIcon={<span>Next</span>} prevIcon={<span>Prev</span>}>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Jugaadu1}
+                  alt="Jugaadu Game Slide 1"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Jugaadu2}
+                  alt="Jugaadu Game Slide 2"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Jugaadu3}
+                  alt="Jugaadu Game Slide 3"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Jugaadu4}
+                  alt="Jugaadu Game Slide 4"
+                />
+              </Carousel.Item>
+              {/* Add more Carousel.Item components if you have additional slides */}
+            </Carousel>
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a Jugaadu Game App created
+                        with React and Nodejs.For real time bidding add app.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Its game like Rashi FAL Guessing game</li>
+                          <li>Powered by React and NodeJs</li>
+                          <li>Respoisive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_Nodejs} alt="Material-UI" rounded className="image-style1 m-1"></Image>{" "}
+                              NodeJs
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://uat.erp.jewelmaker.it"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton href="https://github.com/vishal-nakiya/node-jugaadu" target="_blank">
+                  SOURCE CODE
+                </UrlButton>
+                {/* <UrlButton
+                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
+                  target="_blank"
+                >
+                  WATCH VIDEO
+                </UrlButton> */}
+              </div>
+            </div>
+          </ImageEvent>
         </Events>
       </Timeline>
     </div>

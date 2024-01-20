@@ -9,10 +9,7 @@ import "./my-carousal.styles.css";
 const MyCarousal = ({shouldApplyparticles}) => {
   return (
     <div id="home">
-      {shouldApplyparticles? 
-      <img className="d-block w-100 custom-img" src={Slide3} alt="Third slide" />
-      :
-      (
+      {
         <Carousel controls={false} indicators interval={2500} pause={false}>
         <Carousel.Item>
           <img className="d-block w-100 custom-img" src={Slide2} alt="Second slide" />
@@ -24,7 +21,6 @@ const MyCarousal = ({shouldApplyparticles}) => {
           <img className="d-block w-100 custom-img" src={Slide1} alt="First slide" />
         </Carousel.Item>
       </Carousel>
-        )
       }
       
       <ScrollDown />

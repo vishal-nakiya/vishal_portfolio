@@ -66,12 +66,12 @@ export const skills = {
       imgSrc: L_MATERIALUI,
       skillName: "Material-UI",
     },
-    {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
+    // {
+    //   link: "https://styled-components.com/",
+    //   imgAltText: "styled-components",
+    //   imgSrc: L_STYLED_COMPONENTS,
+    //   skillName: "styled-components",
+    // },
   ],
   mobile: [
     {

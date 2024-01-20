@@ -1,6 +1,6 @@
 {
+  "homepage": "https://vishal-nakiya.github.io/vishal_portfolio/",
   "name": "vishaknakiya_portfolio",
-  "homepage": "https://vishal-nakiya.github.io/VishalNakiya_portfolio/",
   "version": "1.0.0",
   "private": false,
   "dependencies": {
@@ -24,7 +24,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "react-scripts start index.html",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

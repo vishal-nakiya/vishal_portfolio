@@ -10,10 +10,11 @@
   /* Maintain the aspect ratio */
   margin-right: 10px;
   /* Add space to the right of the logo */
+  border-radius: 60px;
 }
 
 .text-container {
-  background-color: #8ec88e;
+  background-color: #05effb;
   /* Green background color */
   border: 2px solid #000000;
   /* Black border */
@@ -21,6 +22,7 @@
   /* Adjust padding as needed for spacing inside the border */
   border-radius: 8px;
   /* Add border radius for rounded corners */
+  border-radius: 60px;
 }
 
 .text-with-magic {
@@ -31,6 +33,23 @@
   /* Adjust the font weight as needed */
   color: #000000;
   /* Black text color */
+  margin-right: 10px;
+  position: relative;
+  top: -4px;
+}
+
+.text-with-magic2 {
+  /* Add your magic styles here */
+  font-size: 10px;
+  /* Adjust the font size as needed */
+  font-weight: bold;
+  /* Adjust the font weight as needed */
+  color: #000000;
+  /* Black text color */
+  margin-right: 10px;
+  position: fixed;
+  top: 48px;
+  left: 84px;
 }
 
 .nav-theme {

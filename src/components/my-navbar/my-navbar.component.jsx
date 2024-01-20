@@ -45,7 +45,8 @@ const MyNavbar = () => {
           <Navbar.Brand href="#home">
             <div className="text-container">
             <img className="logo" src={Logo} alt="" />
-              <span className="text-with-magic">Node Js Developer</span>
+              <span className="text-with-magic">Vishal Nakiya</span>
+              <p className="text-with-magic2">Node Js Developer</p>
             </div>
           </Navbar.Brand>
         </div>

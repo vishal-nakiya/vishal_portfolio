@@ -14,6 +14,17 @@ const ContactForm = () => {
           <Col className="d-flex justify-content-center align-self-center flex-wrap">
             <div className="m-2">
               <a
+                href="https://drive.google.com/file/d/1o-BC_h9msPPDDj2nqg_MSdFcwDqapA5i/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline-danger" title="Download resume">
+                  <i className="fa fa-download"></i> Resume
+                </Button>
+              </a>
+            </div>
+            <div className="m-2">
+              <a
                 href="mailto:nakiyavishalc1234@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"

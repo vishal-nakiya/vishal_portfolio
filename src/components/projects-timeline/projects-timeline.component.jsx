@@ -35,6 +35,11 @@ import Jugaadu1 from "../../assets/img/projects/Dashboard (1).png";
 import Jugaadu2 from "../../assets/img/projects/Admin - Manage Users.png";
 import Jugaadu3 from "../../assets/img/projects/Admin - Manage Withdraw Requests.png";
 import Jugaadu4 from "../../assets/img/projects/Admin - Dashboard.png";
+import vkj1 from "../../assets/img/projects/VKJ/VKJ-GOLD_dashboard.png";
+import vkj2 from "../../assets/img/projects/VKJ/VKJ_GOLDproductmanaga.png";
+import vkj3 from "../../assets/img/projects/VKJ/VKJ_GOLDtagging.png";
+import vkj4 from "../../assets/img/projects/VKJ/VKJGOLD_mobileappmanagement system.png";
+import vkj5 from "../../assets/img/projects/VKJ/VKJ-GOLDbannermanage.png";
 import "./projects-timeline.styles.css";
 
 const TimeLine = () => {
@@ -361,6 +366,124 @@ const TimeLine = () => {
                 </UrlButton>
                 <UrlButton href="https://github.com/vishal-nakiya/node-jugaadu" target="_blank">
                   SOURCE CODE
+                </UrlButton>
+                {/* <UrlButton
+                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
+                  target="_blank"
+                >
+                  WATCH VIDEO
+                </UrlButton> */}
+              </div>
+            </div>
+          </ImageEvent>
+          <ImageEvent
+            date="01/01/2024"
+            className="text-center"
+          >
+            <span style={{ fontWeight: 'bold' }}>Jewellery ERP system</span>
+            <Carousel interval={4000} nextIcon={<span>Next</span>} prevIcon={<span>Prev</span>}>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vkj1}
+                  alt="vkj Slide 1"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vkj2}
+                  alt="vkj Slide 2"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vkj3}
+                  alt="vkj Slide 3"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vkj4}
+                  alt="vkj Slide 4"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vkj5}
+                  alt="vkj Slide 4"
+                />
+              </Carousel.Item>
+              {/* Add more Carousel.Item components if you have additional slides */}
+            </Carousel>
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a ERP system web App created
+                        with React and Nodejs.For product and account manage for jewellery kind of shop.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Product manage module</li>
+                          <li>Implementing product tagging using a physical device printer and a barcode gun for seamless compatibility and efficient inventory management.</li>
+                          <li>Mobile app management system</li>
+                          <li>Account management system like tally prime</li>
+                          <li>Powered by React and NodeJs</li>
+                          <li>Respoisive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_Nodejs} alt="Material-UI" rounded className="image-style1 m-1"></Image>{" "}
+                              NodeJs
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://vkj.developmentlabs.co/"
+                  target="_blank"
+                >
+                  SEE LIVE
                 </UrlButton>
                 {/* <UrlButton
                   href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"

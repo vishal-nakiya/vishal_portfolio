@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vishal_portfolio/static/css/main.e650b357.chunk.css",
-    "main.js": "/vishal_portfolio/static/js/main.ad15678d.chunk.js",
-    "main.js.map": "/vishal_portfolio/static/js/main.ad15678d.chunk.js.map",
+    "main.css": "/vishal_portfolio/static/css/main.e57dbe5f.chunk.css",
+    "main.js": "/vishal_portfolio/static/js/main.80329cc2.chunk.js",
+    "main.js.map": "/vishal_portfolio/static/js/main.80329cc2.chunk.js.map",
     "runtime-main.js": "/vishal_portfolio/static/js/runtime-main.0689392f.js",
     "runtime-main.js.map": "/vishal_portfolio/static/js/runtime-main.0689392f.js.map",
-    "static/js/2.ef6aa754.chunk.js": "/vishal_portfolio/static/js/2.ef6aa754.chunk.js",
-    "static/js/2.ef6aa754.chunk.js.map": "/vishal_portfolio/static/js/2.ef6aa754.chunk.js.map",
+    "static/js/2.920c7dd9.chunk.js": "/vishal_portfolio/static/js/2.920c7dd9.chunk.js",
+    "static/js/2.920c7dd9.chunk.js.map": "/vishal_portfolio/static/js/2.920c7dd9.chunk.js.map",
     "index.html": "/vishal_portfolio/index.html",
-    "precache-manifest.835ea140e26a0a37935ebe93f4da7d94.js": "/vishal_portfolio/precache-manifest.835ea140e26a0a37935ebe93f4da7d94.js",
+    "precache-manifest.83daa65dff7f34274af341f2ad8cb66c.js": "/vishal_portfolio/precache-manifest.83daa65dff7f34274af341f2ad8cb66c.js",
     "service-worker.js": "/vishal_portfolio/service-worker.js",
-    "static/css/main.e650b357.chunk.css.map": "/vishal_portfolio/static/css/main.e650b357.chunk.css.map",
-    "static/js/2.ef6aa754.chunk.js.LICENSE.txt": "/vishal_portfolio/static/js/2.ef6aa754.chunk.js.LICENSE.txt",
+    "static/css/main.e57dbe5f.chunk.css.map": "/vishal_portfolio/static/css/main.e57dbe5f.chunk.css.map",
+    "static/js/2.920c7dd9.chunk.js.LICENSE.txt": "/vishal_portfolio/static/js/2.920c7dd9.chunk.js.LICENSE.txt",
     "static/media/Admin - Dashboard.png": "/vishal_portfolio/static/media/Admin - Dashboard.80a80257.png",
     "static/media/Admin - Manage Users.png": "/vishal_portfolio/static/media/Admin - Manage Users.6ce24603.png",
     "static/media/Admin - Manage Withdraw Requests.png": "/vishal_portfolio/static/media/Admin - Manage Withdraw Requests.e0251390.png",
@@ -19,6 +19,11 @@
     "static/media/JEWEL_MAKER.png": "/vishal_portfolio/static/media/JEWEL_MAKER.020e178f.png",
     "static/media/JEWEL_MAKERLogin.png": "/vishal_portfolio/static/media/JEWEL_MAKERLogin.dc493c20.png",
     "static/media/Tuvoc-1.svg": "/vishal_portfolio/static/media/Tuvoc-1.339bbbde.svg",
+    "static/media/VKJ-GOLD_dashboard.png": "/vishal_portfolio/static/media/VKJ-GOLD_dashboard.d9ae3fc2.png",
+    "static/media/VKJ-GOLDbannermanage.png": "/vishal_portfolio/static/media/VKJ-GOLDbannermanage.c492763a.png",
+    "static/media/VKJGOLD_mobileappmanagement system.png": "/vishal_portfolio/static/media/VKJGOLD_mobileappmanagement system.d9883030.png",
+    "static/media/VKJ_GOLDproductmanaga.png": "/vishal_portfolio/static/media/VKJ_GOLDproductmanaga.3954ae83.png",
+    "static/media/VKJ_GOLDtagging.png": "/vishal_portfolio/static/media/VKJ_GOLDtagging.f0445c6c.png",
     "static/media/aws-2.svg": "/vishal_portfolio/static/media/aws-2.fdff4014.svg",
     "static/media/background.webp": "/vishal_portfolio/static/media/background.bf989778.webp",
     "static/media/contact-form.styles.css": "/vishal_portfolio/static/media/background.e95d0563.webp",
@@ -46,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0689392f.js",
-    "static/js/2.ef6aa754.chunk.js",
-    "static/css/main.e650b357.chunk.css",
-    "static/js/main.ad15678d.chunk.js"
+    "static/js/2.920c7dd9.chunk.js",
+    "static/css/main.e57dbe5f.chunk.css",
+    "static/js/main.80329cc2.chunk.js"
   ]
 }

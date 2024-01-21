@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdded03315bf4e6d70139623ac1ef036",
+    "revision": "2711f507fb6e45ff439e476db3720e88",
     "url": "/vishal_portfolio/index.html"
   },
   {
-    "revision": "a5173b97f63e10d2d715",
-    "url": "/vishal_portfolio/static/css/main.e650b357.chunk.css"
+    "revision": "4f217db9026070461ba2",
+    "url": "/vishal_portfolio/static/css/main.e57dbe5f.chunk.css"
   },
   {
-    "revision": "bf12045b1b3ca8a261b2",
-    "url": "/vishal_portfolio/static/js/2.ef6aa754.chunk.js"
+    "revision": "f3494c23b22adde6a680",
+    "url": "/vishal_portfolio/static/js/2.920c7dd9.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/vishal_portfolio/static/js/2.ef6aa754.chunk.js.LICENSE.txt"
+    "url": "/vishal_portfolio/static/js/2.920c7dd9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5173b97f63e10d2d715",
-    "url": "/vishal_portfolio/static/js/main.ad15678d.chunk.js"
+    "revision": "4f217db9026070461ba2",
+    "url": "/vishal_portfolio/static/js/main.80329cc2.chunk.js"
   },
   {
     "revision": "eab9d1e11923a44fa474",
@@ -50,6 +50,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "339bbbde6da21d7af1b107b15b63f67e",
     "url": "/vishal_portfolio/static/media/Tuvoc-1.339bbbde.svg"
+  },
+  {
+    "revision": "d9ae3fc2c118621584504c3dfc6eb13c",
+    "url": "/vishal_portfolio/static/media/VKJ-GOLD_dashboard.d9ae3fc2.png"
+  },
+  {
+    "revision": "c492763ae34340b9aee90d37fdcbda2b",
+    "url": "/vishal_portfolio/static/media/VKJ-GOLDbannermanage.c492763a.png"
+  },
+  {
+    "revision": "d9883030e652a7ee94d7b272e863646c",
+    "url": "/vishal_portfolio/static/media/VKJGOLD_mobileappmanagement system.d9883030.png"
+  },
+  {
+    "revision": "3954ae83aee5d826f87380e5204d993e",
+    "url": "/vishal_portfolio/static/media/VKJ_GOLDproductmanaga.3954ae83.png"
+  },
+  {
+    "revision": "f0445c6c806e266800d6e9ed4462c271",
+    "url": "/vishal_portfolio/static/media/VKJ_GOLDtagging.f0445c6c.png"
   },
   {
     "revision": "fdff4014b22f67787c176c6aa52890a7",

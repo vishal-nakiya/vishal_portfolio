@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ebd18c1c26eaf6a28f520e7ba43be63b",
+    "revision": "fdded03315bf4e6d70139623ac1ef036",
     "url": "/vishal_portfolio/index.html"
   },
   {
-    "revision": "c91af276f4b2ace87ac3",
+    "revision": "a5173b97f63e10d2d715",
     "url": "/vishal_portfolio/static/css/main.e650b357.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vishal_portfolio/static/js/2.ef6aa754.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c91af276f4b2ace87ac3",
-    "url": "/vishal_portfolio/static/js/main.ad88e358.chunk.js"
+    "revision": "a5173b97f63e10d2d715",
+    "url": "/vishal_portfolio/static/js/main.ad15678d.chunk.js"
   },
   {
     "revision": "eab9d1e11923a44fa474",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vishal_portfolio/static/media/JEWEL_MAKERLogin.dc493c20.png"
   },
   {
-    "revision": "7b3ce55fb86f58fe049dad964c88fa3e",
-    "url": "/vishal_portfolio/static/media/Tuvoc-1.7b3ce55f.svg"
+    "revision": "339bbbde6da21d7af1b107b15b63f67e",
+    "url": "/vishal_portfolio/static/media/Tuvoc-1.339bbbde.svg"
   },
   {
     "revision": "fdff4014b22f67787c176c6aa52890a7",
